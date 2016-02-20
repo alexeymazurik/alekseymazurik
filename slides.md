@@ -148,6 +148,24 @@ class: center, middle
 ---
 class: center, middle
 
+## SPA
+
+<p class="center images">
+	<img width="30%" src="/images/facebook-logo.jpg">
+	<img width="30%" src="/images/vk-logo.jpg">
+</p>
+---
+class: center, middle
+
+## Multi-page
+
+<p class="center images">
+	<img width="40%" src="/images/medium-logo.jpg">
+	<img width="30%" src="/images/ebay-logo.png">
+</p>
+---
+class: center, middle
+
 ## How can I find a job?
 ---
 ## How can I find a job?
