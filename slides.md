@@ -14,6 +14,7 @@ class: center, middle
 - Software Engineer at **Rails Reactor**
 - **Github:** [@alexeymazurik](https://github.com/alexeymazurik)
 - **Facebook:** [Aleksey Mazurik](https://www.facebook.com/alekseymazurik)
+- **Slides:** [mazurik.me](http://mazurik.me)
 
 ---
 ## What's in this course?
