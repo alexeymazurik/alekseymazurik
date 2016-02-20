@@ -16,6 +16,56 @@ class: center, middle
 - **Facebook:** [Aleksey Mazurik](https://www.facebook.com/alekseymazurik)
 
 ---
+## What's in this course?
+
+.course[
+1. .active[SEO]
+2. HTML for dummies
+3. Advanced Layout
+4. Javascript
+5. Ruby
+]
+---
+## What's in this course?
+
+.course[
+1. SEO
+2. .active[HTML for dummies]
+3. Advanced Layout
+4. Javascript
+5. Ruby
+]
+---
+## What's in this course?
+
+.course[
+1. SEO
+2. HTML for dummies
+3. .active[Advanced Layout]
+4. Javascript
+5. Ruby
+]
+---
+## What's in this course?
+
+.course[
+1. SEO
+2. HTML for dummies
+3. Advanced Layout
+4. .active[Javascript]
+5. Ruby
+]
+---
+## What's in this course?
+
+.course[
+1. SEO
+2. HTML for dummies
+3. Advanced Layout
+4. Javascript
+5. .active[Ruby]
+]
+---
 
 # Web Development
 
@@ -89,56 +139,6 @@ class: center, middle
 class: center, middle
 
 ## Back-end
----
-## What's in this course?
-
-.course[
-1. .active[SEO]
-2. HTML for dummies
-3. Advanced Layout
-4. Javascript
-5. Ruby
-]
----
-## What's in this course?
-
-.course[
-1. SEO
-2. .active[HTML for dummies]
-3. Advanced Layout
-4. Javascript
-5. Ruby
-]
----
-## What's in this course?
-
-.course[
-1. SEO
-2. HTML for dummies
-3. .active[Advanced Layout]
-4. Javascript
-5. Ruby
-]
----
-## What's in this course?
-
-.course[
-1. SEO
-2. HTML for dummies
-3. Advanced Layout
-4. .active[Javascript]
-5. Ruby
-]
----
-## What's in this course?
-
-.course[
-1. SEO
-2. HTML for dummies
-3. Advanced Layout
-4. Javascript
-5. .active[Ruby]
-]
 ---
 class: center, middle
 
