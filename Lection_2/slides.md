@@ -156,14 +156,14 @@ Help Commands: `html` or `html:5` + press `TAB`
 ---
 # First App
 ## .red[INCORRECT RESULT:]
-![](Lection_2/images/incorrect_html.png)
+![](./images/incorrect_html.png)
 ---
 # First App
 ## .green[CORRECT RESULT:]
-![](Lection_2/images/correct_html.png)
+![](./images/correct_html.png)
 ---
 # Looks good?
-![](Lection_2/images/long_css_include.png)
+![](./images/long_css_include.png)
 ---
 class: center, middle
 
