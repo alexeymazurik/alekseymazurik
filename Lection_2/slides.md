@@ -1,250 +1,187 @@
 class: center, middle
 
-<p class="center"><img width="70%" src="/images/cad-logo.jpg" /></p>
+# HTML/CSS Advanced
+## Lection 1
+---
+# NodeJS
+
+## Installing
+### Linux
+```bash
+$ sudo apt-get install nodejs
+```
+### OS X
+#### Download and install NodeJS package:
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+---
+# NodeJS
+## Check for installed NodeJS
+### Linux
+```bash
+$ nodejs
+> 2 + 2
+4
+>
+```
+### OS X
+```bash
+$ node
+> 2 + 2
+4
+>
+```
 ---
 class: center, middle
 
-# Web Development
+# NPM
+## Node Package Manager
 
----
-
-# Who am I
-
-- **Name's** Aleksey Mazurik
-- Software Engineer at **Rails Reactor**
-- **Github:** [@alexeymazurik](https://github.com/alexeymazurik)
-- **Facebook:** [Aleksey Mazurik](https://www.facebook.com/alekseymazurik)
-- **Slides:** [mazurik.me](http://mazurik.me)
-
----
-## What's in this course?
-
-.course[
-1. .active[SEO]
-2. HTML for dummies
-3. Advanced Layout
-4. Javascript
-5. Ruby
-]
----
-## What's in this course?
-
-.course[
-1. SEO
-2. .active[HTML for dummies]
-3. Advanced Layout
-4. Javascript
-5. Ruby
-]
----
-## What's in this course?
-
-.course[
-1. SEO
-2. HTML for dummies
-3. .active[Advanced Layout]
-4. Javascript
-5. Ruby
-]
----
-## What's in this course?
-
-.course[
-1. SEO
-2. HTML for dummies
-3. Advanced Layout
-4. .active[Javascript]
-5. Ruby
-]
----
-## What's in this course?
-
-.course[
-1. SEO
-2. HTML for dummies
-3. Advanced Layout
-4. Javascript
-5. .active[Ruby]
-]
----
-
-# Web Development
-
-- Front-End (HTML, CSS, JS)
-- Back-end (Ruby, Python, Java...)
-- UI/UX
-- SEO
-- QA
-
----
-
-# Web Development
-
-<p align="center">
-  <img src="/images/dev-skills.png" width="100%" />
-</p>
-
----
-.left-column.ui-images[
-
-- ## UI/UX
-- .grey[## Tools]
-- .grey[## Inspiration]
-]
-.right-column.ui-images.content[
-
-- .big-img[![](images/ui-ux.jpg)]
-- <div></div>
-- <div></div>
-]
----
-.left-column.ui-images[
-
-- .grey[## UI/UX]
-- ## Tools
-- .grey[## Inspiration]
-]
-.right-column[.ui-images[
-
-- .big-img[![](images/ui-tools.jpg)]
-]]
----
-.left-column.ui-images[
-
-- .grey[## UI/UX]
-- .grey[## Tools]
-- ## Inspiration
-]
-.right-column[.ui-images[
-- <div></div>
-- <div></div>
-- .images[![](images/dribbble-logo.jpg) ![](images/behance.png)]
-]]
----
-class: center, middle
-
-## Front-end actually...
----
-class: center, middle
-
-<img width="40%" src="/images/html.png">
----
-class: center, middle
-
-<p class="center"><img width="100%" src="/images/css.png"></p>
----
-class: center, middle
-
-<p class="center"><img width="100%" src="/images/javascript.png"></p>
----
-class: center, middle
-
-## Back-end
----
-class: center, middle
-
-## Real cases
-
----
-class: center, middle
-
-## SPA
-
-<p class="center images">
-	<img width="30%" src="/images/facebook-logo.jpg">
-	<img width="30%" src="/images/vk-logo.jpg">
+<p class="center">
+  <img width="100%" src="./images/npm.png" />
 </p>
 ---
+# NPM
+## Install
+### Linux
+```bash
+$ sudo apt-get update
+$ sudo apt-get install npm
+```
+### Check
+``` bash
+$ npm --version
+1.3.10
+```
+---
 class: center, middle
 
-## Multi-page
+# Bower
 
-<p class="center images">
-	<img width="40%" src="/images/medium-logo.jpg">
-	<img width="30%" src="/images/ebay-logo.png">
+<p class="center">
+  <img width="100%" src="./images/bower.jpg" />
 </p>
 ---
+# Bower
+### Install
+```bash
+$ [sudo] npm install -g bower
+```
+### Problems?
+```bash
+$ ln -s /usr/bin/nodejs /usr/bin/node
+$ hash -r
+```
+### Check
+```bash
+$ bower --version
+1.7.7
+```
+---
+# First App
+```bash
+$ mkdir first_app
+$ cd first_app
+$ git init
+$ npm init
+$ bower init
+$ ls
+```
+File structure:
+```bash
+../
+package.json
+bower.json
+```
+---
+# First App
+## package.json
+```json
+{
+  "name": "first_app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
+```
+---
+# First App
+## bower.json
+```json
+{
+  "name": "first_app",
+  "description": "",
+  "main": "index.js",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
+```
+---
+# First App
+## Build folder
+Create html file called **`index.html`**:
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>First App</title>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    I'm great front-end developer
+  </body>
+</html>
+```
+Help Commands: `html` or `html:5` + press `TAB`
+---
+# First App
+### Connect Styles
+```html
+<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+```
+### Check results >>>
+---
+# First App
+## .red[INCORRECT RESULT:]
+![](/images/incorrect_html.png)
+---
+# First App
+## .green[CORRECT RESULT:]
+![](/images/correct_html.png)
+---
+# Looks good?
+![](/images/long_css_include.png)
+---
 class: center, middle
 
-## How can I find a job?
+<p class="center">
+  <img width="100%" src="./images/gulp.png" />
+</p>
 ---
-## How can I find a job?
-.course.smaller[
-1. .active[Good tech skills]
-2. IT-conferences, meetings
-3. Great CV
-4. LinkedIn
-5. hh.ua, work.ua, jobs.ua
-6. Rails Reactor
-7. Don't give up
-]
----
-## How can I find a job?
-.course.smaller[
-1. Good tech skills
-2. .active[Soft skills: IT-conferences, meetings]
-3. Great CV
-4. LinkedIn
-5. hh.ua, work.ua, jobs.ua
-6. Rails Reactor
-7. Don't give up
-]
----
-## How can I find a job?
-.course.smaller[
-1. Good tech skills
-2. IT-conferences, meetings
-3. .active[Great CV]
-4. LinkedIn
-5. hh.ua, work.ua, jobs.ua
-6. Rails Reactor
-7. Don't give up
-]
----
-## How can I find a job?
-.course.smaller[
-1. Good tech skills
-2. IT-conferences, meetings
-3. Great CV
-4. .active[LinkedIn]
-5. hh.ua, work.ua, jobs.ua
-6. Rails Reactor
-7. Don't give up
-]
----
-## How can I find a job?
-.course.smaller[
-1. Good tech skills
-2. IT-conferences, meetings
-3. Great CV
-4. LinkedIn
-5. .active[hh.ua, work.ua, jobs.ua]
-6. Rails Reactor
-7. Don't give up
-]
----
-## How can I find a job?
-.course.smaller[
-1. Good tech skills
-2. IT-conferences, meetings
-3. Great CV
-4. LinkedIn
-5. hh.ua, work.ua, jobs.ua
-6. .active[Rails Reactor]
-7. Don't give up
-]
----
-## How can I find a job?
-.course.smaller[
-1. Good tech skills
-2. IT-conferences, meetings
-3. Great CV
-4. LinkedIn
-5. hh.ua, work.ua, jobs.ua
-6. Rails Reactor
-7. .active[Don't give up]
-]
----
-class: center, middle
+# Gulp
+## Install
+```bash
+$ npm install -g gulp-cli
+$ npm install gulp --save
+```
+## gulpfile.js
+```js
+var gulp = require('gulp');
 
-## Questions?
+gulp.task('default', function() {
+  // place code for your default task here
+});
+```
