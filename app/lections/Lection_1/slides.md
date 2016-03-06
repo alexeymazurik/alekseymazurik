@@ -93,7 +93,7 @@ class: center, middle
 ]
 .right-column.ui-images.content[
 
-- .big-img[![](images/ui-ux.jpg)]
+- .big-img[![](/images/ui-ux.jpg)]
 - <div></div>
 - <div></div>
 ]
@@ -106,7 +106,7 @@ class: center, middle
 ]
 .right-column[.ui-images[
 
-- .big-img[![](images/ui-tools.jpg)]
+- .big-img[![](/images/ui-tools.jpg)]
 ]]
 ---
 .left-column.ui-images[
@@ -118,7 +118,7 @@ class: center, middle
 .right-column[.ui-images[
 - <div></div>
 - <div></div>
-- .images[![](images/dribbble-logo.jpg) ![](images/behance.png)]
+- .images[![](/images/dribbble-logo.jpg) ![](/images/behance.png)]
 ]]
 ---
 class: center, middle

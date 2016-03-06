@@ -37,7 +37,7 @@ class: center, middle
 ## Node Package Manager
 
 <p class="center">
-  <img width="100%" src="./images/npm.png" />
+  <img width="100%" src="/images/npm.png" />
 </p>
 ---
 # NPM
@@ -58,7 +58,7 @@ class: center, middle
 # Bower
 
 <p class="center">
-  <img width="100%" src="./images/bower.jpg" />
+  <img width="100%" src="/images/bower.jpg" />
 </p>
 ---
 # Bower
@@ -156,19 +156,19 @@ Help Commands: `html` or `html:5` + press `TAB`
 ---
 # First App
 ## .red[INCORRECT RESULT:]
-![](./images/incorrect_html.png)
+![](/images/incorrect_html.png)
 ---
 # First App
 ## .green[CORRECT RESULT:]
-![](./images/correct_html.png)
+![](/images/correct_html.png)
 ---
 # Looks good?
-![](./images/long_css_include.png)
+![](/images/long_css_include.png)
 ---
 class: center, middle
 
 <p class="center">
-  <img width="100%" src="./images/gulp.png" />
+  <img width="100%" src="/images/gulp.png" />
 </p>
 ---
 # Gulp
